@@ -47,6 +47,18 @@ nav ul li a:visited {
 	color: #09c;
 }
 
+footer {
+	text-align: center;
+	margin-top: 10px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer nav {
+	float: none;
+}
+
 
 /* Links */
 
