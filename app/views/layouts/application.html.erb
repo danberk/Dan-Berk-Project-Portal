@@ -15,14 +15,19 @@
 	<body>
 	<div class="container">
 		<header>
-			<%= image_tag("logo.png", :alt => "Dan Berk", :class => "round") %>
-			<nav class="round">
-				<ul>
-					<li><%= link_to "Home", '#' %></li>
-					<li><%= link_to "Projects", '#' %></li>
-					<li><%= link_to "Sign in", '#' %></li>
-				</ul>
-			</nav>
+			<div class="topstrip">
+				
+			</div>
+			<div class="topstripcontainer">
+				<%= image_tag("logo.png", :alt => "Dan Berk", :class => "round") %>
+				<nav class="round">
+					<ul>
+						<li><%= link_to "Home", '#' %></li>
+						<li><%= link_to "Projects", '#' %></li>
+						<li><%= link_to "Sign in", '#' %></li>
+					</ul>
+				</nav>
+			</div>
 		</header>
 		<section class="round">
 			<%= yield %>

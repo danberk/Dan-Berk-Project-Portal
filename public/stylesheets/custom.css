@@ -1,0 +1,21 @@
+/* -----------------------------------------------------------------------
+
+ Custom CSS
+ Author: Dan Berk
+
+   * Copyright (c) 2007-Present. 
+----------------------------------------------------------------------- */
+
+.topstrip {
+	height: 45px;
+	background-color: black;
+	width: 100%;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+}
+
+.topstripcontainer {
+	width: 1000px;
+	position: relative;
+}
