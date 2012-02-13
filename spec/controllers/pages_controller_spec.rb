@@ -47,5 +47,11 @@ describe PagesController do
       response.should have_selector("title", :content => "#{@base_title} | About")
     end
   end
-
+  
+  describe "GET 'projects'" do
+    it "should be successful" do
+      get 'projects'
+      response.should be_success
+    end
+  end
 end
