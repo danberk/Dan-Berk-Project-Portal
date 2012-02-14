@@ -23,6 +23,10 @@
 	padding-bottom:20px;
 }
 
+.logo {
+	padding-top: 5px;
+}
+
 nav {
 	float: right;
 	white-space: nowrap;
